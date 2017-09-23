@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://h.teamapp.mobi/mygoupt -->
+<html class="ui-mobile"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!--<base href="http://h.teamapp.mobi/mygoupt">--><base href=".">
+       	
+<script async="" src="./my goUPT_files/analytics.js"></script><script type="application/javascript">
+
+//added to only show console info on local-hosts
+var DEBUG = (location.hostname.search("test") > -1 || location.hostname.search("local") > -1 || location.hostname.search("staging") > -1) ? true : false;
+if(!DEBUG){
+    if(!window.console) window.console = {};
+    var methods = ["log", "debug", "warn", "info"];
+    for(var i=0;i<methods.length;i++){
+    	console[methods[i]] = function(){};
+    }
+}
+
+	//global variable definitions that are convenient to have on each page
+	var preview = "0";
+	if(preview==1) console.log("*** PREVIEW ***");
+	
+	console.log("using vars copy: mygoupt-vars - fresh");
+	var generated = "2017-09-21 20:07:27";
+	var config_file_url = "https://origin-files.infinitemonkeys.mobi/userfiles/mygoupt-var2.json";
+	console.log("config file: " + config_file_url + " - - " + generated);
+	console.log("last fetched: 1506101896");
+
+	var app_name = "mygoupt";
+	var app_id = "104989723";
+	var app_userID = "7ae24081-5dcf-402f-b874-cacb69dd3cde";
+	console.log("app_userID: " + app_userID);
+	var app_copy = "fresh";
+
+	var published = true;
+	var html_version = "1";
+	
+	var app_title = "my goUPT";
+	var show_title = "text";
+	var col_back = "#dddddd";
+	var col_text = "#fafafa";
+	var col_title = "#393f93";
+	var bg_opacity = "0.00";
+	var icon_scale = "1.0";
+	
+	var header_file = "104989723-title.png";
+	
+	var ads_on = "0";
+	
+	var fid = "";
+	var home_link = "/index.php?app=mygoupt";
+	
+	var userfiles_path = "https://origin-files.infinitemonkeys.mobi/userfiles/";
+	var publish_type = "6";
+	
+	var menu_style = "grid";
+	
+</script> 
+	<!-- //ios7 app-view link overrides -->
+	<script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
+<meta name="viewport" content="initial-scale=1.0,maximum-scale=1, user-scalable=no">
+
+        
+        <link rel="canonical" href="http://h.fanapp.mobi/mygoupt">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <meta name="wot-verification" content="8069a6211313e4b1dcab">
+
+        <!-- added by david hoare to force refresh of index page each time  -->
+        <meta http-equiv="Expires" content="Mon, 26 Jul 1997 05:00:00 GMT">
+        <meta http-equiv="Cache-Control" content="no-cache">
+        <meta http-equiv="Pragma" content="no-cache">
+				<meta name="viewport" content="initial-scale=1.0,maximum-scale=1, user-scalable=no">
+				<meta name="mobile-web-app-capable" content="yes">
+				<meta name="apple-mobile-web-app-capable" content="yes">
+
+        <title>my goUPT</title>
+
+        <!-- favicons for various platforms -->
+<link rel="shortcut icon" type="image/png" href="https://fileadmin.infinitemonkeys.mobi/utils/resize_image.php?url=https%3A%2F%2Forigin-files.infinitemonkeys.mobi%2Fuserfiles%2F104989723-icon.png&amp;w=16&amp;h=16&amp;filetype=png">
+
+<link rel="apple-touch-icon" href="https://fileadmin.infinitemonkeys.mobi/utils/resize_image.php?url=https%3A%2F%2Forigin-files.infinitemonkeys.mobi%2Fuserfiles%2F104989723-icon.png&amp;w=152&amp;h=152&amp;filetype=png">
+     	<link rel="icon" sizes="196x196" href="https://fileadmin.infinitemonkeys.mobi/utils/resize_image.php?url=https%3A%2F%2Forigin-files.infinitemonkeys.mobi%2Fuserfiles%2F104989723-icon.png&amp;w=196&amp;h=196&amp;filetype=png">
+
+    <!-- browser detection		 -->
+   	<link href="./my goUPT_files/browser-detection.css" rel="stylesheet" type="text/css" media="screen">
+		<script async="" type="text/javascript" src="./my goUPT_files/browser-detection.js"></script>
+
+		<link rel="stylesheet" href="./my goUPT_files/font-awesome.min.css">
+		<link rel="stylesheet" href="./my goUPT_files/jquery.mobile.min.css">
+		<link rel="stylesheet" href="./my goUPT_files/waves.min.css">
+		<link rel="stylesheet" href="./my goUPT_files/animate.css">
+		<link rel="stylesheet" href="./my goUPT_files/nativedroid2.css">
+
+		<!--our custom or overridden styles-->
+	<!--- 	<link rel="stylesheet" type="text/css"  href="/css/style.css" /> -->
+		<link rel="stylesheet" href="./my goUPT_files/theme_style.css">
+
+
+		<!-- php-based style overrides -->
+		<style>
+	body, html, p, a:not(.ui-btn), li .rowDescription{
+		color:#fafafa !important;
+	}
+		.ui-mobile .ui-page {
+	    padding-bottom: 0px !important;
+	}
+	
+	/*.dataList li a{ 	color:#fafafa !important;  text-shadow: none !important;}*/
+	.dataList li, .nd2-card{
+		background-color:rgb(221,221,221) !important;
+		border-color:rgb(250,250,250) !important;
+		color:#fafafa !important;
+	}
+
+	.rowTitle, .ui-li-heading, .card-primary-title, .card-primary-title a, .card-subtitle{
+		color:#393f93 !important;
+	}
+
+	a,.default_btn{
+		color:#393f93 !important;
+	}
+
+	.ui-header, .ui-footer, #leftpanel.ui-panel.ui-panel-open{
+		background-color:#dddddd !important;
+		/*background-color:#ddd !important;*/
+		color:#393f93 !important;
+		/*color:#333 !important;*/
+	}
+	.custom_select option{
+		color:#393f93 !important;
+		}
+	.ui-header > .ui-btn {
+		color:#393f93 !important;
+	}
+
+	.col_title {
+		color: #393f93 !important;
+	}
+	.module_custom_li > li:first-child
+	{border-color:#393f93 !important;
+	border-top:1px solid
+	}
+	.col_text {
+		color: #fafafa !important;
+	}
+	.col_back {
+		background-color:rgba(221,221,221,1) !important;
+	}
+	.col_back_without_opacity {
+		background-color:rgb(221,221,221) !important;
+	}
+	.col_back_without_opacity li a {
+		border-color:rgba(250,250,250,0.5) !important;
+	}
+	.classifiedList li a.ui-btn{border-color:#fafafa !important;}
+	.direction_address{
+		background-color:rgb(221,221,221) !important;
+		text-shadow: none !important;
+		color:#393f93 !important;
+	}
+	.openclose { color:#fafafa !important; }
+
+	#html_content p{color:#000 !important;}
+
+	.dataList li a.more_but{
+		color:#393f93 !important;
+		}
+
+	.ui-input-text.ui-focus::after, .ui-input-search.ui-focus::after{ background-color : #393f93; }
+	.licustombible li a{color:#fafafa !important;}
+	.ui-content .licustombible .ui-li-divider{border-bottom:1px solid;}
+	.card-subtitle{color:#fafafa !important;}
+	#ad_type-button span{
+		color:#393f93;
+	}
+
+</style>
+
+		<!--jq-mobile scripts-->
+		<script src="./my goUPT_files/jquery.min.js"></script>
+		<script src="./my goUPT_files/jquery.mobile.min.js"></script>
+
+		<!--- new js -->
+		<script src="./my goUPT_files/jquery-ui.min.js"></script>
+		<script src="./my goUPT_files/waves.min.js"></script>
+		<script src="./my goUPT_files/nativedroid2.js"></script>
+		<script src="./my goUPT_files/nd2settings.js"></script>
+
+
+		<!--Script for fancy box-->
+		<script type="text/javascript" src="./my goUPT_files/jquery.fancybox.pack.js"></script>
+		<link rel="stylesheet" type="text/css" href="./my goUPT_files/jquery.fancybox.css" media="screen">
+
+		<!--custom functions-->
+		<script type="text/javascript" src="./my goUPT_files/functions.js"></script>
+		<script type="text/javascript" src="./my goUPT_files/update.js"></script>
+
+		<style>
+		/*.module {
+			position:absolute;
+		}*/
+		</style>
+
+        <script type="text/javascript">
+
+				//added by David Hoare for frame background formatting
+			function hexToRGB(h){
+				h = (h.charAt(0)=="#") ? h.substring(1,7):h;
+				if ( h.length == 3 ) {
+			        h = h.substr(0,1) + h.substr(0,1) + h.substr(1,2) + h.substr(1,2) + h.substr(2,3) + h.substr(2,3);
+			    }
+				var rgb = parseInt(h.substring(0,2),16);
+				rgb += "," + parseInt(h.substring(2,4),16);
+				rgb += "," + parseInt(h.substring(4,6),16);
+				return rgb;
+			}
+			//end added
+
+			function getCookie(c_name)
+			{
+				var i,x,y,ARRcookies=document.cookie.split(";");
+				for (i=0;i<ARRcookies.length;i++)
+				{
+					x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
+					y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+					x=x.replace(/^\s+|\s+$/g,"");
+					if (x==c_name)
+					{
+						return unescape(y);
+					}
+				}
+			}
+
+			$(document).ready(function() {
+
+				$(".various1").fancybox({
+					beforeLoad : function() {
+				        window.console && console.log("opening menu");
+				        return;
+				    }
+				});
+
+
+				//if the app is UNPUBLISHED - then redirect to error page:
+				if(published === false || published === "false"){
+					window.console && console.log("Unpublished app - redirecting: " + published);
+					document.location.href='unpublished.php?app='+app_name + "&email=" + "admuptkebersihankbb@gmail.com&url="+encodeURI(document.location.href);
+				}else if(html_version == "0"){
+					window.console && console.log("NO HTML_VERSION: " + html_version);
+					document.location.href='unpublished.php?app='+app_name + "&email=" + "admuptkebersihankbb@gmail.com&url="+encodeURI(document.location.href);
+				}else{
+					window.console && console.log("published app  & html version - continuing: " + published + " - " + html_version);
+				}
+
+
+
+				//title image
+				$("#homeimage").on("error", function(){
+					$(this).attr("src", "/images/empty.png");
+				});
+				var app_image = "https://origin-files.infinitemonkeys.mobi/userfiles/"+header_file;
+				if(app_copy == "fresh"){app_image += "?random="+Math.random();}
+				
+				if(show_title != 'none')	//only show it if it's supposed to be, otherwise leave it empty
+					$("#homeimage").attr("src",app_image);
+
+
+
+				// Set background image for site
+				path = "https://origin-files.infinitemonkeys.mobi/userfiles";
+				var bg_image = path+"/"+"104989723-background.jpg";
+				if(app_copy == "fresh"){
+					bg_image += "?random="+Math.random();
+				}
+				$('#content').css("background-image", "url("+bg_image+")");
+
+				$( "#homeimage" ).load(function() {
+					console.log("image loaded - calling resize");
+					if(menu_style == "grid") resizegrid();
+				});
+
+				var pages = jQuery.parseJSON("{\"10840537\":{\"on\":false,\"name\":\"contacts\",\"title\":\"Contacts \",\"icon\":\"contacts_sketched_white.png\",\"icon_time\":\"2017-09-21 19:22:11\",\"order\":\"17\",\"image\":\"default-bg.png\",\"image_time\":\"2014-05-04 19:51:04\",\"data\":{\"contacts\":[]}},\"10840538\":{\"on\":true,\"name\":\"chat\",\"title\":\"LiveChat\",\"icon\":\"chat_sketched_white.png\",\"icon_time\":\"2017-09-21 19:22:34\",\"order\":\"24\",\"image\":\"104989723-background.jpg\",\"image_time\":\"2017-09-21 19:22:47\",\"data\":{\"chatroom\":\"\"}},\"10840539\":{\"on\":false,\"name\":\"calendar\",\"title\":\"Calendar\",\"icon\":\"calendar_sketched_white.png\",\"icon_time\":\"2017-09-21 19:22:59\",\"order\":\"31\",\"image\":\"default-bg.png\",\"image_time\":\"2014-05-04 19:51:04\",\"data\":{\"calendar_feed\":\"\",\"calendar_view\":\"\",\"utc\":\"false\"}},\"10840547\":{\"on\":true,\"name\":\"directions\",\"title\":\"Directions\",\"icon\":\"directions_sketched_white.png\",\"icon_time\":\"2017-09-21 19:25:02\",\"order\":\"81\",\"image\":\"104989723-background.jpg\",\"image_time\":\"2017-09-21 19:25:32\",\"data\":{\"directions_address\":\"jl.gedung lima kertajaya\",\"directions_url\":\"https:\\\/\\\/utils.infinitemonkeys.mobi\\\/maps\\\/get_map.php?dest=jl.gedung+lima+kertajaya\"}},\"10840546\":{\"on\":false,\"name\":\"photos\",\"title\":\"Photos\",\"icon\":\"photos_sketched_white.png\",\"icon_time\":\"2017-09-21 19:24:44\",\"order\":\"88\",\"image\":\"default-bg.png\",\"image_time\":\"2014-05-04 19:51:04\",\"data\":{\"photo_feeds\":[]}},\"10840540\":{\"on\":true,\"name\":\"forms\",\"title\":\"On Call Services\",\"icon\":\"forms_sketched_white.png\",\"icon_time\":\"2017-09-21 19:23:44\",\"order\":\"95\",\"image\":\"104989723-background.jpg\",\"image_time\":\"2017-09-21 19:24:27\",\"data\":{\"forms_url\":\"http:\\\/\\\/adminvrs1.wufoo.com\\\/forms\\\/m94th1h0vp8m1n\\\/\"}},\"10840590\":{\"on\":true,\"name\":\"community\",\"title\":\"Social Wall\",\"icon\":\"community_sketched_white.png\",\"icon_time\":\"2017-09-21 19:28:33\",\"order\":\"161\",\"image\":\"104989723-background.jpg\",\"image_time\":\"2017-09-21 19:28:40\",\"data\":\"\"},\"10840593\":{\"on\":true,\"name\":\"documents\",\"title\":\"Docs\",\"icon\":\"documents_sketched_white.png\",\"icon_time\":\"2017-09-21 19:29:30\",\"order\":\"168\",\"image\":\"104989723-background.jpg\",\"image_time\":\"2017-09-21 19:30:45\",\"data\":{\"documents\":[]}},\"10840574\":{\"on\":true,\"name\":\"fanmappr\",\"title\":\"Tracker\",\"icon\":\"fanmappr_sketched_white.png\",\"icon_time\":\"2017-09-21 19:26:24\",\"order\":\"175\",\"image\":\"104989723-background.jpg\",\"image_time\":\"2017-09-21 19:26:45\",\"data\":\"\"}}"); // jshint ignore:line
+				
+				//grid LAYOUT
+console.log("doing GRID layout");
+var cols = 16;
+var rows = 16;
+var mods_across = 5;
+//the total number of modules you could fit tightly side-by-side
+var mods_down = 5;
+//the total number of modules you could fit tightly side-by-side
+
+
+function creategrid(){
+	$("#container").html('');
+	//add the modules in starting positions
+	$.each(pages, function(i, value) {
+		//check iframe cdn 29-02-2016							
+		if(value.name=='facebook'){
+			if(window.self !== window.top){
+				//alert('1');
+				linkc = "javascript: alert('This feature will only work on a mobile device. Please publish your app to properly test it.');";
+			}else{
+				//alert('2');
+				linkc = "modules/" + value.name.toLowerCase() + "/" + value.name + ".php?fid="+i;
+				if(preview===1){
+					linkc += "&preview=1";
+				}
+			}
+		}else{
+			linkc = "modules/" + value.name.toLowerCase() + "/" + value.name + ".php?fid="+i;
+			if(preview===1){
+				linkc += "&preview=1";
+			}
+		}
+		
+								
+		imgc = "https://origin-files.infinitemonkeys.mobi/userfiles/" + value.icon;
+		if(app_copy == "fresh")
+			imgc += ("?r="+ Math.random());
+
+		sectionc = value.title;
+		data_tb = '<div id="mod'+i+'" class="module"><a id="dis' + i + '" rel="external" href="' + linkc + '" class="ui-link"><img src="' + imgc + '"></a><div class="module_text">' + sectionc + '</div></div>';
+		$("#container").append(data_tb);
+	});
+	$("#container").append('<div id="frame"></div>');	//add the frame
+	$(".module_text").css("color", col_text);
+
+	resizegrid();
+
+	//checks for updated data using update.js and does whatever actions are needed...
+	if(typeof(checkForNewData) == "function")
+		checkForNewData(pages);
+}
+
+var grid_space_width;
+var grid_space_height;
+
+function resizegrid() {
+	resizepage(); //first, resize the css based on the page
+
+	//hide titles if needed
+	if(show_title == 'false' || show_title == 'none'){
+		$("#homeimage").css("display", "none");
+	}else{
+		$("#homeimage").css("max-height",windowHeight * 0.12);
+		var dropdown = $("#homeimage").outerHeight() + 10;
+		console.log("bumping content down: " + dropdown);
+		$("#container").css("top",dropdown + "px");
+	}
+
+	var container_width = $("#container").outerWidth();
+	var module_width = container_width / mods_across;
+
+	var container_height = $("#container").outerHeight();
+	var text_height = module_width * 0.15;
+	var module_height = (container_height / mods_down);
+
+	var grid_width = container_width - module_width;
+	var grid_height = container_height - module_height;
+	grid_space_width = grid_width / (cols-1);
+	grid_space_height = (grid_height / (rows-1)); 	// remove a bit of padding
+
+	var positions = [];
+	var row = col = 0; // jshint ignore:line
+	var pos = 1;
+	var divData = "";
+	$(".testbox").remove();
+	for( row = 0; row < rows; row++) {
+		for( col = 0; col < cols; col++, pos++) {
+			pos_top = row * grid_space_height;// + (grid_space_height / 2);
+			pos_left = col * grid_space_width;// + (grid_space_width / 2);
+
+			positions[pos] = {
+				"top" : pos_top,
+				"left" : pos_left
+			};
+
+		}
+	}
+
+	$.each(pages, // $.each() looping on each Module
+	function(i, value) {
+		$("#mod"+i).css('top',positions[value.order].top);
+		$("#mod"+i).css('left',positions[value.order].left);
+	});
+
+	//format some stuff
+	$(".module").width(module_width * icon_scale);
+
+	$(".module_text").css("font-size", text_height * icon_scale);
+	$(".openclose").css("font-size", text_height * 1.2 * icon_scale);
+	$(".module img").css("width", module_width * 1 * icon_scale);
+
+	resizeFrame();
+
+}
+
+function resizeFrame() {
+	console.log("resizing frame");
+
+	var padding = grid_space_width/2;
+	var tops = [];
+	var lefts = [];
+	var rights = [];
+	var bottoms = [];
+	$(".module").each(function() {
+		var m = $(this);
+		var pos = m.position();
+		lefts.push(pos.left);
+		tops.push(pos.top);
+		var right = pos.left + m.outerWidth();
+		var bottom = pos.top + m.outerHeight();
+		rights.push(right);
+		bottoms.push(bottom);
+	});
+	lefts.sort(function(a, b) {
+		return a - b;
+	});
+	tops.sort(function(a, b) {
+		return a - b;
+	});
+
+	rights.sort(function(a, b) {
+		return b - a;
+	});
+	bottoms.sort(function(a, b) {
+		return b - a;
+	});
+
+// below adustment to set height for iframe
+	$("#frame").css("left", lefts[0]);
+	$("#frame").css("width", rights[0] - lefts[0]);
+	$("#frame").css("height", bottoms[0]);
+
+	var frame_col_string = "rgba("+hexToRGB(col_back)+","+bg_opacity+")";  //added by David Hoare for frame background formatting
+	$("#frame").css("background-color",frame_col_string);   //added by David Hoare for frame background formatting
+
+}
+
+
+creategrid();
+
+setTimeout(function() { resizegrid() }, 1000); //temporary fix for resizing grid
+			});
+	    </script>
+
+    <style type="text/css">.fancybox-margin{margin-right:0px;}</style><style>@font-face{font-family:uc-nexus-iconfont;src:url(chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.woff) format('woff'),url(chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.ttf) format('truetype')}</style></head>
+    <body class="ui-mobile-viewport ui-overlay-a nd2-ready">
+			<script async="" type="text/javascript" src="./my goUPT_files/browser_function_tests.js"></script>
+
+			<div data-role="page" id="index" data-url="index" tabindex="0" class="ui-page ui-page-theme-a ui-page-footer-fixed ui-page-active" style="padding-bottom: 53px; max-width: 926px; width: 362.305px; min-height: 530px;">
+
+				
+				<div id="content" data-role="content" class="bg-home ui-content" style="padding: 0px; height: 476px; background-image: url(&quot;https://origin-files.infinitemonkeys.mobi/userfiles/104989723-background.jpg?random=0.6311161608496492&quot;); background-size: 362px 476px; background-position: 281.844px 0px;" role="main">
+					
+					<div id="header-index" class="ui-btn-corner-all">
+							<div><img src="./my goUPT_files/104989723-title.png" id="homeimage" style="max-height: 63.6px;"></div>
+							<!-- <div id="homesubtitle"></div> -->
+					</div>
+
+										<div id="container" role="main" class="" data-inset="false" data-wow-delay="0.2s" style="top: 74px;"><div id="mod10840537" class="module" style="top: 20.9067px; left: 0px; width: 68.4px;"><a id="dis10840537" rel="external" href="http://h.teamapp.mobi/modules/contacts/contacts.php?fid=10840537" class="ui-link"><img src="./my goUPT_files/contacts_sketched_white.png" style="width: 68.4px;"></a><div class="module_text" style="color: rgb(250, 250, 250); font-size: 10.26px;">Contacts </div></div><div id="mod10840538" class="module" style="top: 20.9067px; left: 127.68px; width: 68.4px;"><a id="dis10840538" rel="external" href="http://h.teamapp.mobi/modules/chat/chat.php?fid=10840538" class="ui-link"><img src="./my goUPT_files/chat_sketched_white.png" style="width: 68.4px;"></a><div class="module_text" style="color: rgb(250, 250, 250); font-size: 10.26px;">LiveChat</div></div><div id="mod10840539" class="module" style="top: 20.9067px; left: 255.36px; width: 68.4px;"><a id="dis10840539" rel="external" href="http://h.teamapp.mobi/modules/calendar/calendar.php?fid=10840539" class="ui-link"><img src="./my goUPT_files/calendar_sketched_white.png" style="width: 68.4px;"></a><div class="module_text" style="color: rgb(250, 250, 250); font-size: 10.26px;">Calendar</div></div><div id="mod10840540" class="module" style="top: 104.533px; left: 255.36px; width: 68.4px;"><a id="dis10840540" rel="external" href="http://h.teamapp.mobi/modules/forms/forms.php?fid=10840540" class="ui-link"><img src="./my goUPT_files/forms_sketched_white.png" style="width: 68.4px;"></a><div class="module_text" style="color: rgb(250, 250, 250); font-size: 10.26px;">On Call Services</div></div><div id="mod10840546" class="module" style="top: 104.533px; left: 127.68px; width: 68.4px;"><a id="dis10840546" rel="external" href="http://h.teamapp.mobi/modules/photos/photos.php?fid=10840546" class="ui-link"><img src="./my goUPT_files/photos_sketched_white.png" style="width: 68.4px;"></a><div class="module_text" style="color: rgb(250, 250, 250); font-size: 10.26px;">Photos</div></div><div id="mod10840547" class="module" style="top: 104.533px; left: 0px; width: 68.4px;"><a id="dis10840547" rel="external" href="http://h.teamapp.mobi/modules/directions/directions.php?fid=10840547" class="ui-link"><img src="./my goUPT_files/directions_sketched_white.png" style="width: 68.4px;"></a><div class="module_text" style="color: rgb(250, 250, 250); font-size: 10.26px;">Directions</div></div><div id="mod10840574" class="module" style="top: 209.067px; left: 255.36px; width: 68.4px;"><a id="dis10840574" rel="external" href="http://h.teamapp.mobi/modules/fanmappr/fanmappr.php?fid=10840574" class="ui-link"><img src="./my goUPT_files/fanmappr_sketched_white.png" style="width: 68.4px;"></a><div class="module_text" style="color: rgb(250, 250, 250); font-size: 10.26px;">Tracker</div></div><div id="mod10840590" class="module" style="top: 209.067px; left: 0px; width: 68.4px;"><a id="dis10840590" rel="external" href="http://h.teamapp.mobi/modules/community/community.php?fid=10840590" class="ui-link"><img src="./my goUPT_files/community_sketched_white.png" style="width: 68.4px;"></a><div class="module_text" style="color: rgb(250, 250, 250); font-size: 10.26px;">Social Wall</div></div><div id="mod10840593" class="module" style="top: 209.067px; left: 127.68px; width: 68.4px;"><a id="dis10840593" rel="external" href="http://h.teamapp.mobi/modules/documents/documents.php?fid=10840593" class="ui-link"><img src="./my goUPT_files/documents_sketched_white.png" style="width: 68.4px;"></a><div class="module_text" style="color: rgb(250, 250, 250); font-size: 10.26px;">Docs</div></div><div id="frame" style="left: 0px; width: 324.359px; height: 242.063px; background-color: rgba(221, 221, 221, 0);"></div></div>
+					
+					
+					<!-- FOR GRID LAYOUT ONLY -->
+					
+						<div id="footer" data-role="footer" data-position="fixed" data-id="myfooter" class="wow fadeIn ui-footer ui-bar-inherit ui-footer-fixed slideup" role="contentinfo" style="width: 362.305px; max-width: 926px;">
+							<a href="http://h.teamapp.mobi/mygoupt#leftpanel" class="ui-btn-left wow fadeIn ui-btn waves-effect waves-button" data-wow-delay="0.8s" data-role="button" role="button"><i class="fa fa-bars fa-2x"></i></a>
+						</div>
+
+						<!-- panel left -->
+						<div data-role="panel" id="leftpanel" data-display="overlay" data-position-fixed="true" class="ui-panel ui-panel-position-left ui-panel-display-overlay ui-panel-closed ui-body-inherit ui-panel-fixed ui-panel-animate">
+						    <div class="ui-panel-inner"><h3>Main Menu</h3><ul data-role="listview" data-inset="false" data-icon="false" class="ui-listview">
+						        <li class="ui-first-child">
+						            <a rel="external" data-ajax="false" data-icon="false" href="http://h.teamapp.mobi/modules/messages/messages.php" class="ui-btn waves-effect waves-button">
+						                Messages						            </a>
+						        </li>
+						        <li>
+						            <a rel="external" data-ajax="false" data-icon="false" href="http://h.teamapp.mobi/modules/moreinfo/moreinfo.php" class="ui-btn waves-effect waves-button">
+						                More Info						            </a>
+						        </li>
+						        <li>
+						            <a rel="external" data-ajax="false" data-icon="false" href="http://h.teamapp.mobi/app_privacy_terms.html" class="ui-btn waves-effect waves-button">
+						                Privacy &amp; Terms						            </a>
+						        </li>
+						        <li class="ui-last-child">
+						            <a rel="external" data-ajax="false" data-icon="false" id="fmail" href="mailto:admuptkebersihankbb@gmail.com?subject=Check%20out%20this%20great%20app:%20http://teamapp.mobi/mygoupt" class="ui-btn waves-effect waves-button">
+						                Send to a Friend						            </a>
+						        </li>
+						    </ul></div>
+						    
+						</div>
+						<!-- /panel left -->
+
+					
+					
+				</div>
+		</div>
+
+    
+
+<div class="ui-loader ui-corner-all ui-body-a ui-loader-default"><span class="ui-icon-loading"></span><h1>loading</h1></div><div class="ui-panel-dismiss"></div></body></html>
